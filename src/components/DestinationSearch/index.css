@@ -1,0 +1,35 @@
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  font-weight: bold;
+  color: #252627;
+  font-size: 50px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.inputSearchingElement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  background-color: #f1f5f9;
+}
+.inputEle {
+  border: none;
+  width: 400px;
+  padding: 15px;
+  color: #252627;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #f1f5f9;
+}
+.destinations-body-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
